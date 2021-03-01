@@ -1,0 +1,281 @@
+
+.navbar {
+  background-color: #EEE;
+}
+
+.navbar > div {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+
+.loading {
+  text-align: center;
+}
+
+.block {
+  padding: 5px 15px 30px 15px;
+  margin-top: 30px;
+}
+
+.block h4 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.dropzone {
+  height: 150px;
+  border: 1px dashed #AAA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  width: 100%;
+  margin: 20px auto 30px;
+  background-color: #FAFAFA;
+}
+
+.tags {
+  margin-bottom: 60px !important;
+}
+
+#tags-label {
+  top: -10px !important;
+  font-weight: bold;
+}
+
+.WAMuiChipInput-chipContainer-31 {
+  margin-top: 28px !important;
+  min-height: 32px !important;
+}
+
+.MuiChip-root {
+  height: 24px !important;
+  font-size: 0.7125rem !important;
+  margin: 5px 8px 8px 0 !important;
+}
+
+.MuiSvgIcon-root {
+  width: 0.8em !important;
+}
+
+.MuiFormHelperText-root {
+  text-align: right !important;
+  font-size: 0.6em !important;
+}
+
+.modal {
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  padding: 0px 30px 30px;
+  outline: none;
+  position: absolute;
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 5px 8px 0px rgba(0,0,0,0.14), 0px 1px 14px 0px rgba(0,0,0,0.12);
+  background-color: #fff;
+  max-height: 80vh;
+}
+
+.upload-msg {
+  text-align: center;
+  font-size: 19px;
+  line-height: 30px;
+  margin: 30px 0;
+  background-color: #ffc10724;
+  color: #ff9007;
+  padding: 15px 10px;
+}
+
+.upload-submit {
+  text-align: center;
+}
+
+.upload-submit button {
+  margin: 10px 10px 0;
+}
+
+.progress {
+  position: relative;
+  align-items: center;
+  color: #000;
+  font-weight: normal;
+  text-align: center;
+  padding: 50px 50px 30px;
+}
+.progress > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.progress > div[role="progressbar"] {
+  color: rgb(156, 158, 160);
+  width: 75px !important;
+  height: 75px !important;
+}
+
+.progressBack {
+  color: #EEE !important;
+  z-index: 0 !important;
+  position: relative;
+  left: 35px;
+}
+
+.progressFront {
+  color: #2196F3 !important;
+  z-index: 1 !important;
+  left: -38px;
+  position: relative;
+}
+
+.progress > .progressValue {
+  border-radius: 50%;
+  width: 34px;
+  position: relative;
+  left: -98px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #2196F3;
+  font-size: 20px;
+}
+
+span.progressText {
+  position: relative;
+  left: 20px;
+  font-size: 20px;
+}
+.ticket-fields-title {
+  font-size: 12px;
+  color: rgba(0,0,0,0.54);
+}
+
+.ticket-fields-block {
+  margin: 20px 0 30px;
+  background-color: #F7F7F7;
+  padding: 10px;
+  border: 1px solid #E6E6E6;
+}
+
+.ticket-fields-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.ticket-fields-options select {
+  font-size: 12px;
+}
+
+.upload-report {
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.upload-report > div {
+  text-align: center;
+  border: 1px solid #000;
+  padding: 10px;
+  width: 100px;
+  font-size: 13px;
+}
+
+.upload-report > div:nth-child(1){
+  background-color: #EEE;
+  color: #333;
+}
+
+.upload-report > div:nth-child(2){
+  background-color: #8bc34a29;
+  color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+.upload-report > div:nth-child(3){
+  background-color: #f443361c;
+  color: #f44336;
+  border-color: #f44336;
+}
+
+.upload-report > div span {
+  font-size: 25px;
+  font-weight: bold;
+  display:block;
+  height: 25px;
+}
+
+.close-upload-modal {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.close-upload-modal svg {
+  font-size: 30px;
+  color: #AAA
+}
+
+.close-upload-modal:hover svg {
+  color: #555
+}
+
+.report-title {
+  font-size: 26px;
+  color: #2196F3;
+  text-align: center;
+}
+
+.history {
+  font-size: 12px;
+  padding: 10px;
+}
+
+span.history-success {
+  color: green;
+  font-weight: bold;
+}
+
+span.history-error {
+  color: red;
+  font-weight: bold;
+}
+
+span.history-msg {
+  color: #FF9800;
+  font-weight: bold;
+}
+
+.history-item-title {
+  height: 30px !important;
+  min-height: initial !important;
+}
+
+.history-item-report {
+  font-size: 12px;
+  background-color: #F7F7F7;
+  margin-bottom: 7px;
+  padding: 7px;
+  border: 1px solid #EEE;
+}
+
+.history-item {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.history-pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.history-pagination button {
+  margin-left: 20px;
+}

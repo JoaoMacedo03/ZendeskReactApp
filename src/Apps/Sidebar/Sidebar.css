@@ -1,0 +1,272 @@
+body {
+  background-color: #FFF !important;
+  font-family: Roboto !important;
+  margin: 0 !important;
+  max-width: initial !important;
+}
+
+.container {
+  max-width: 310px !important;
+}
+
+.search-btn {
+  background-color: #df2a35 !important;
+  color: #FFF !important;
+  padding: 6px 8px !important;
+  top: 8px !important;
+}
+
+.search-btn:hover {
+  background-color: #b52b33 !important;
+}
+
+.searching {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.search-area {
+  background-color: #F5F5F5;
+  padding: 7px 0px 4px 15px;
+  border-radius: 8px;
+  border: 1px solid #EEE;
+}
+
+.expansion-panel {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-left: 2px;
+}
+
+.expansion-details {
+  flex-direction: column;
+  padding: 0px 8px 20px !important;
+}
+
+.expansion-details .data-block {
+  margin: 0;
+}
+.expansion-title {
+  font-size: 12px !important;
+  text-transform: lowercase;
+}
+
+.data-block {
+  font-size: 12px;
+  border: 1px solid #DDD;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+  color: #666;
+}
+
+.data-block b {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #000;
+  margin-right: 3px;
+}
+
+.data-block-title {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #AAA;
+  background: #FFF;
+  padding: 0 5px;
+  font-size: 11px;
+}
+
+.backoffice {
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+  color: red;
+  text-decoration: none;
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+}
+
+.backoffice:hover {
+  color: rgb(180, 12, 12)
+}
+
+
+.backoffice svg {
+  font-size: 14px;
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+
+.error {
+  border: 1px solid red;
+  color: red;
+  padding: 10px;
+  width: 250px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+.actionBtn {
+  margin-top: 10px !important;
+  background-color: #df2a35 !important;
+}
+
+.actionBtn:hover {
+  background-color: #b52b33 !important;
+}
+
+.table {
+  width: 99% !important;
+}
+
+.table td, .table th {
+  font-size: 13px;
+  padding: 3px 0px;
+}
+
+.table thead th {
+  background-color: #df2a35;
+  color: #FFF;
+}
+
+.table th,
+.table td {
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.table.clickable tbody tr:not(.no-cursor) { 
+  cursor: pointer;
+}
+
+.table.clickable tbody tr:hover {
+  background: #EEE;
+} 
+
+.row-data, .row-data-block {
+  font-size: 0 !important;
+  padding: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.row-data.expanded {
+  font-size: 12px !important;
+  padding: 10px !important;
+  border-bottom: 1px solid #DDD !important;
+  margin-bottom: 5px;
+}
+
+.row-data.expanded .row-data-block {
+  font-size: 12px !important;
+} 
+
+.table2 {
+  background-color: #EEE;
+}
+
+.no-wrap th,
+.no-wrap td {
+  white-space: initial;
+}
+
+.table2 thead th {
+  background-color: #DDD;
+  color: #000;
+  font-weight: bold;
+}
+
+.row-data.no-padding {
+  padding: 0 !important;
+  background-color: #EEE;
+}
+
+.expandedRow td {
+  background-color: #EEE;
+}
+
+.expanded .space {
+  height: 10px;
+  background-color: #FFF;
+  border-top: 1px solid #DDD;
+}
+
+.ads-data-block {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+.ads-data-block li {
+  width: 50%;
+  flex: 0 0 50%;
+}
+
+.row-data h6 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.mundipaag {
+  background-color: #FFF;
+  display: block;
+  color: red;
+  top: 0;
+  text-align: right;
+  position: relative;
+  right: 13px;
+  text-decoration: none;
+}
+
+.mundipaag:hover {
+  color: rgb(180, 12, 12)
+}
+
+.mundipaag svg {
+  font-size: 14px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+table button {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

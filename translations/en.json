@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "Dados do Pedido",
+    "short_description": "Dados do Pedido.",
+    "long_description": "Dados do Pedido.",
+    "installation_instructions": "Simply click install."
+  }
+}

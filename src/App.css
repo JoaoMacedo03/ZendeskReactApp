@@ -1,0 +1,68 @@
+
+body {
+  font-family: Roboto;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  color: #ea1d2c !important;
+  position: absolute;
+  left: 45%;
+  top: 20px;
+}
+
+.tab ul {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 5px;
+  border-bottom: 1px solid #D8DCDE;
+  color: #87929D;
+}
+
+.tab li {
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 12px 6px;
+  color: rgb(104, 115, 125);
+}
+
+.tab .active {
+  border-bottom-style: solid;
+  margin-bottom: -1px;
+  border-bottom-width: 3px;
+  border-bottom-color: #cc3340;
+  color: #cc3340;
+}
+
+.error {
+  width: 160px;
+  text-align: center;
+  margin: 30px auto;
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 4px;
+  color: red;
+}

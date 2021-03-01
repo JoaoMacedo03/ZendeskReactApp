@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "Webmotors",
+    "short_description": "",
+    "long_description": "",
+    "installation_instructions": "",
+    "parameters": {
+      "api_login_baseurl": {
+        "label": "Informe a url base para autenticação da API (ex.: http://dominio.api.com/)"
+      },
+      "api_baseurl": {
+        "label": "Informe a url base consumo de dados na API (ex.: http://dominio.api.com/)"
+      },
+      "username": {
+        "label": "Informe o username da API"
+      },
+      "password": {
+        "label": "Informe o password da API"
+      },
+      "systemId": {
+        "label": "Informe o systemId da API"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Joao Macedo",
+  "author": {
+    "name": "Joao Macedo",
+    "email": "suporte@aktienow.com",
+    "url": "https://www.aktienow.com"
+  },
+  "location": {
+    "support": {
+      "nav_bar": "http://localhost:3000?type=navbar",
+      "new_ticket_sidebar": "http://localhost:3000?type=sidebar",
+      "ticket_sidebar": "http://localhost:3000?type=sidebar"
+    }
+  },
+  "private": false,
+  "defaultLocale": "en",
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}
